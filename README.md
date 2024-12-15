@@ -27,26 +27,47 @@ Generate COMET scores for both translations and post-edited versions, visualizin
 # Quality Analysis
 ## Terminology Adherence Rate
 Translation Adherence:
+
   Total (segments): 249
+  
   Adherent: 236
+  
   Non-Adherent: 13
+  
   Adherence %: 94.78
 
 Post-Editing Adherence:
+
   Total (segments): 249
+  
   Adherent: 227
+  
   Non-Adherent: 22
+  
   Adherence %: 91.16
+  
 Analysis of Non-Adherence Cases:
+
 1.	Translation (13 segments):
+   
 -	Stem matching issues: Different words sharing the same stem in Italian map to different English terms.
-Example: 'testimon' stem in Italian: 
+  
+Example: 'testimon' stem in Italian:
+
 o	testimonianza → testimony
+
 o	testimone → witness
+
 The glossary expects 'testimoni — witnesses', causing false non-adherence flags
+
 -	Minor reformulations:
+-	
 Example: 'reati di corruzione' translated as 'offense of corruption' instead of glossary's 'corruption offenses'
+
 2.	Post-editing (22 segments):
+   
 -	Same issues as in translation
--	Additional reformulations due to formal-to-informal tone conversion requirements
+  
+-	Additional reformulations due to formal-to-informal tone conversion requirement
+  
 The increased number of deviations in post-editing (13 vs 22) primarily stems from style adaptations required for informal tone.
