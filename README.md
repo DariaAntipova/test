@@ -7,7 +7,7 @@ Set up variables and functions for API calls to Anthropic.
 
 Translation direction: Italian to English (Romance language to Germanic language).
 
-LLM selection: this notebook uses Anthropic's claude-3-5-sonnet-20240620 for glossary extraction, translation, and post-editing, chosen for its demonstrated accuracy in English translation tasks and precise instruction following.
+LLM selection: this implementation uses Anthropic's claude-3-5-sonnet-20240620 for glossary extraction, translation, and post-editing, chosen for its demonstrated accuracy in English translation tasks and precise instruction following.
 
 ## Step 1. Create test dataset
 Select 500 segments from open-source legal corpora ([ELRC-845](https://opus.nlpl.eu/ELRC-845-Corpora_legal_text/it&en/v1/ELRC-845-Corpora_legal_text)), filtering for segments with > 3 words to ensure meaningful content.
