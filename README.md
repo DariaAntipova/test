@@ -45,8 +45,7 @@ Generate COMET scores for both translations and post-edited versions, visualizin
   
   Adherence %: 91.16
   
-Analysis of Non-Adherence Cases:
-
+## Analysis of Non-Adherence Cases:
 1.	Translation (13 segments):
    
 -	Stem matching issues: Different words sharing the same stem in Italian map to different English terms.
@@ -57,7 +56,7 @@ Analysis of Non-Adherence Cases:
 
   o	testimone → witness
 
-  The glossary expects 'testimoni — witnesses', causing false non-adherence flags
+  The algorithm expects 'testimoni — witnesses', causing false non-adherence flags
 
 -	Minor reformulations:
   
