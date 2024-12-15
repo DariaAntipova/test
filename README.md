@@ -70,27 +70,58 @@ Generate COMET scores for both translations and post-edited versions, visualizin
   
 The increased number of deviations in post-editing (13 vs 22) primarily stems from style adaptations required for informal tone.
 
-## Deliverables
+## Impact of Post-Editing on Translation Quality
+The COMET score comparison reveals a decline in translation quality following post-editing, primarily attributable to two factors:
 
-1. Working prototype: 'antipova_test_task_intento.ipynb'
+1.	Formality Level Mismatch: legal texts traditionally require formal language, whereas the post-edited versions adopted a more informal tone, diverging from conventional legal writing standards.
+   
+2.	Gender-Neutral Language: the implementation of gender-neutral terminology, while promoting inclusivity, was likely flagged as semantic deviation from the source text.
+   
+## Examples of Formality Changes
+
+Single Word/Phrase Modifications:
+
+- subsequent → later
+- in conjunction → together
+- obtain → get
+- requested → asked
+- children → kids
+- it will → it'll
+- are unable → can't
+- verify → check
+
+Complex Sentence Modifications:
+
+Translation (formal): "to verify the effective implementation of the plan and its suitability, as well as to propose modifications to it when significant violations of the requirements are ascertained or when changes occur in the organization or activities of the administration;"
+
+Post-editing (informal): "to check if the plan is working well and fits, and to suggest changes if there are big rule breaks or if the organization or what it does changes;"
+
+## Gender-Neutral Language Adaptations:
+
+- his or her → their
+- men → partners
+- she	→ they
+
+# Deliverables
+1. Working prototype: "antipova_test_task_intento.ipynb"
 
 2. Excel spreadsheets:
    
-•	'legal_it-en.xlsx'
+•	"legal_it-en.xlsx"
 
    Contains open-source legal corpora ([ELRC-845](https://opus.nlpl.eu/ELRC-845-Corpora_legal_text/it&en/v1/ELRC-845-Corpora_legal_text)) in Italian and English.
    
-•	'term_adherence_df.xlsx'
+•	"term_adherence_df.xlsx"
 
    Contains sources, references, glossary terms, English term stems, translations and post-edits with their stemmed versions as well as term adherence flags for each segment with terms (True/False).
    
-•	'translation_post_edit_df.xlsx'
+•	"translation_post_edit_df.xlsx"
 
    Contains sources, references, translations, post-edits, and COMET scores for both steps.
 
-4. Documentation on workflow architecture and quality analysis: 'README.md'
+3. Documentation on workflow architecture and quality analysis: "README.md"
 
-5. Graph: 'comet_scores.png'
+4. Graph: "comet_scores.png"
    
    Showcases COMET score improvements/degradations between translation and post-editing.
 
