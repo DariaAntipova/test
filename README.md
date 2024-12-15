@@ -12,6 +12,9 @@ LLM selection: this implementation uses Anthropic's claude-3-5-sonnet-20240620 f
 ## Step 1. Create test dataset
 Select 500 segments from open-source legal corpora ([ELRC-845](https://opus.nlpl.eu/ELRC-845-Corpora_legal_text/it&en/v1/ELRC-845-Corpora_legal_text)), filtering for segments with > 3 words to ensure meaningful content.
 
+## Step 2. Generate glossary based on test dataset
+Extract 50 key terms and their stems from the test set to create a terminology reference for translation, post-editing, and calculation of terminology adherence rate.
+
 ## Step 3. Perform glossary-guided translation
 Translate source segments in batches of 50, incorporating relevant glossary terms to ensure terminology consistency.
 
