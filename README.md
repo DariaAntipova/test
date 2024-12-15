@@ -68,7 +68,7 @@ Generate COMET scores for both translations and post-edited versions, visualizin
   
 -	Additional reformulations due to formal-to-informal tone conversion requirement
   
-The increased number of deviations in post-editing (13 vs 22) primarily stems from style adaptations required for informal tone.
+The increased number of deviations in post-editing (13 vs 22) primarily results from style adaptations required for informal tone.
 
 ## Impact of Post-Editing on Translation Quality
 The COMET score comparison reveals a decline in translation quality following post-editing, primarily attributable to two factors:
