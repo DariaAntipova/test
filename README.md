@@ -75,15 +75,22 @@ The increased number of deviations in post-editing (13 vs 22) primarily stems fr
 1. Working prototype: 'antipova_test_task_intento.ipynb'
 
 2. Excel spreadsheets:
+   
 •	'legal_it-en.xlsx'
+
    Contains open-source legal corpora ([ELRC-845](https://opus.nlpl.eu/ELRC-845-Corpora_legal_text/it&en/v1/ELRC-845-Corpora_legal_text)) in Italian and English.
+   
 •	'term_adherence_df.xlsx'
+
    Contains sources, references, glossary terms, English term stems, translations and post-edits with their stemmed versions as well as term adherence flags for each segment with terms (True/False).
+   
 •	'translation_post_edit_df.xlsx'
+
    Contains sources, references, translations, post-edits, and COMET scores for both steps.
 
 4. Documentation on workflow architecture and quality analysis: 'README.md'
 
 5. Graph: 'comet_scores.png'
+   
    Showcases COMET score improvements/degradations between translation and post-editing.
 
