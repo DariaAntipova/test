@@ -73,13 +73,13 @@ The increased number of deviations in post-editing (13 vs 22) primarily results 
 ## Impact of Post-Editing on Translation Quality
 The COMET score comparison reveals a decline in translation quality following post-editing, primarily attributable to two factors:
 
-1.	Formality Level Mismatch: legal texts traditionally require formal language, whereas the post-edited versions adopted a more informal tone, diverging from conventional legal writing standards.
+1.	Formality level mismatch: legal texts traditionally require formal language, whereas the post-edited versions adopted a more informal tone, diverging from conventional legal writing standards.
    
-2.	Gender-Neutral Language: the implementation of gender-neutral terminology, while promoting inclusivity, was likely flagged as semantic deviation from the source text.
+2.	Gender-neutral language: the implementation of gender-neutral terminology, while promoting inclusivity, was likely flagged as semantic deviation from the source text.
    
 ## Examples of Formality Changes
 
-Single Word/Phrase Modifications:
+Single word/phrase modifications:
 
 - subsequent → later
 - in conjunction → together
@@ -90,13 +90,13 @@ Single Word/Phrase Modifications:
 - are unable → can't
 - verify → check
 
-Complex Sentence Modifications:
+Complex sentence modifications:
 
 Translation (formal): "to verify the effective implementation of the plan and its suitability, as well as to propose modifications to it when significant violations of the requirements are ascertained or when changes occur in the organization or activities of the administration;"
 
 Post-editing (informal): "to check if the plan is working well and fits, and to suggest changes if there are big rule breaks or if the organization or what it does changes;"
 
-## Gender-Neutral Language Adaptations:
+## Gender-neutral language adaptations:
 
 - his or her → their
 - men → partners
