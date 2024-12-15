@@ -3,7 +3,7 @@ This project implements a multi-agent translation workflow using open-source tec
 
 # Workflow Steps
 ## Step 0. Configure Anthropic API integration
-Set up variables and functions for API calls to Anthropic.
+Set up variables and functions for API requests to Anthropic.
 
 Translation direction: Italian to English (Romance language to Germanic language).
 
